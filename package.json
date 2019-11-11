@@ -1,0 +1,25 @@
+{
+  "name": "@wellmade/secret-santa",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Secret Santa management tool",
+  "main": "index.js",
+  "scripts": {
+    "test:lint-staged": "lerna exec --concurrency 1 lint-staged"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ephys/santa.be.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ephys/santa.be/issues"
+  },
+  "homepage": "https://github.com/Ephys/santa.be#readme",
+  "devDependencies": {
+    "husky": "^3.0.9",
+    "lerna": "^3.18.4",
+    "lint-staged": "^9.4.2"
+  }
+}

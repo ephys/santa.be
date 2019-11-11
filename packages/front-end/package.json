@@ -1,0 +1,35 @@
+{
+  "name": "@wellmade/secret-santa-front-end",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:prodlike": "NODE_ENV=production rjs start --port 3000",
+    "start:dev": "check-engines && NODE_ENV=development rjs start --port 3000",
+    "test:ts-dry-run": "tsc --noEmit --project tsconfig.json --skipLibCheck",
+    "build": "NODE_ENV=production rjs build client",
+    "rework-dev": "npm i @reworkjs/core@git@bitbucket.org:foobarhq/reworkjs-build.git#develop"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@reworkjs/core": "^0.28.1",
+    "react": "^16.11.0",
+    "react-cookie": "^4.0.1",
+    "react-dom": "^16.11.0",
+    "react-helmet": "^5.2.1",
+    "react-intl": "^3.4.0",
+    "react-router-dom": "^5.1.2"
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.7.2",
+    "@foobarhq/eslint-config": "^7.0.1",
+    "@foobarhq/stylelint-config": "^2.0.0",
+    "@reworkjs/postcss-preset-reworkjs": "^0.4.1",
+    "check-engines": "^1.5.0",
+    "eslint": "^6.6.0",
+    "lint-staged": "^9.4.2",
+    "stylelint": "^11.1.1"
+  }
+}

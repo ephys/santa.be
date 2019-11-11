@@ -1,0 +1,6 @@
+{
+  "routes": "src/**/*.route.{js,ts,tsx,jsx}",
+  "directories": {
+    "logs": false
+  }
+}
